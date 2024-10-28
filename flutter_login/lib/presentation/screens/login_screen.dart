@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login/presentation/providers/usuarios_provider.dart';
+import 'package:flutter_login/domain/entities/usuario.dart';
 import 'home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -11,51 +13,54 @@ class LoginScreen extends StatefulWidget {
 class LoginScreenState extends State<LoginScreen> {
   final TextEditingController userController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+  List<User> _users = [];
 
-  void _login(BuildContext context) {
-    // Verificar si los campos están vacíos
-    if (userController.text.isEmpty || passwordController.text.isEmpty) {
-      showDialog(
-        context: context,
-        builder: (context) => AlertDialog(
-          title: const Text("Error"),
-          content: const Text("Por favor, completa ambos campos."),
-          actions: [
-            TextButton(
-              child: const Text("OK"),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        ),
-      );
-      return; // Salir de la función si hay campos vacíos
-    }
+  @override
+  void initState() {
+    super.initState();
+    _fetchUsers(); 
+  }
 
-    // Verificar si el usuario y la contraseña coinciden
-    if (userController.text == passwordController.text) {
+  Future<void> _fetchUsers() async {
+    final users = await UserProvider.fetchUsers();
+
+    setState(() {
+      _users = users; 
+    });
+  }
+
+  void _login() {
+    final username = userController.text;
+    final password = passwordController.text;
+
+    // Validamos si el usuario existe en la lista
+    bool userExists = _users.any((user) =>
+        user.username == username && user.password == password);
+
+    if (userExists) {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => HomeScreen(user: userController.text),
+          builder: (context) => HomeScreen(username: username),
         ),
       );
     } else {
       showDialog(
         context: context,
-        builder: (context) => AlertDialog(
-          title: const Text("Error"),
-          content: const Text("Usuario y contraseña no coinciden"),
-          actions: [
-            TextButton(
-              child: const Text("OK"),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        ),
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text('Error de inicio de sesión'),
+            content: const Text('El usuario y la contraseña no coinciden.'),
+            actions: [
+              TextButton(
+                child: const Text('Cerrar'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
       );
     }
   }
@@ -70,7 +75,7 @@ class LoginScreenState extends State<LoginScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             TextField(
               controller: userController,
               decoration: const InputDecoration(labelText: 'Usuario'),
@@ -82,7 +87,7 @@ class LoginScreenState extends State<LoginScreen> {
             ),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () => _login(context),
+              onPressed: _login,
               child: const Text('Login'),
             ),
           ],

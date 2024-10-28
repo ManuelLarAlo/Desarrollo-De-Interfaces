@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
-  final String user;
+  final String username;
 
-  const HomeScreen({super.key, required this.user});
+  const HomeScreen({super.key, required this.username});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(user),
+        title: Text(username),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: Text('Bienvenido, $user!'),
+        child: Text('Bienvenido, $username'),
       ),
     );
   }
