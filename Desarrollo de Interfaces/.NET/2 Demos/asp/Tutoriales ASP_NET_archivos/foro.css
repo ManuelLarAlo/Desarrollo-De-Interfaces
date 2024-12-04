@@ -1,0 +1,45 @@
+TD.forofecha {
+	BORDER-RIGHT: #006699 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #006699 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9px; PADDING-BOTTOM: 1px; BORDER-LEFT: #006699 1px solid; COLOR: white; PADDING-TOP: 1px; BORDER-BOTTOM: #006699 1px solid; BACKGROUND-COLOR: #006699
+}
+TD.forofecha2 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: black 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9px; PADDING-BOTTOM: 1px; BORDER-LEFT: black 1px solid; COLOR: white; PADDING-TOP: 1px; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: black
+}
+A.forofecha2 {
+	FONT-SIZE: 9px; COLOR: white; TEXT-DECORATION: none
+}
+A.forofecha2:hover {
+	BACKGROUND-COLOR: transparent
+}
+TD.forotitulo {
+	BORDER-RIGHT: #cddbe7 0px solid; BORDER-TOP: #cddbe7 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 14px; BORDER-LEFT: #cddbe7 0px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.forotitulo2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 14px; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid; BACKGROUND-COLOR: #a5a5a5
+}
+TD.foromenuizq {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 0px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 0px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.foromenuizqPRINC {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 0px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid
+}
+TD.foromenuizqbottom {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 0px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.foromenuizq2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TD.forocuerpo {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cddbe7 0px solid; BORDER-BOTTOM: #cddbe7 0px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.forocuerpoPRINC {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cddbe7 0px solid; BORDER-BOTTOM: #cddbe7 1px solid
+}
+TD.forocuerpobottom {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 0px solid; BORDER-LEFT: #cddbe7 0px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.forocuerpo2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TD.fororespuesta {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; COLOR: gray; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Times New Roman
+}

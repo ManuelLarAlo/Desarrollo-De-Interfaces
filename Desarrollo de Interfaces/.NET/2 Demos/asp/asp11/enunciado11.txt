@@ -1,0 +1,9 @@
+
+Enlace a datos. Asistentes.
+
+Objetivos.
+
+1.- Controles de datos.
+2.- Asignación de un control de datos a un control de presentación.
+3.- Utilización de los asistentes.
+4.- Vinculacón entre controles.

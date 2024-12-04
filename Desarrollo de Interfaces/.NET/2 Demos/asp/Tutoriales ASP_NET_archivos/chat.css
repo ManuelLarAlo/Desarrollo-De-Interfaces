@@ -1,0 +1,30 @@
+.sc_chat_container {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: black 1px solid; MARGIN-TOP: 6px; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: black 1px solid; WIDTH: 260px; COLOR: black; LINE-HEIGHT: 14px; PADDING-TOP: 1px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: arial; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.sc_chat_container INPUT {
+	BORDER-RIGHT: #bbbbbb 1px groove; BORDER-TOP: #bbbbbb 1px groove; MARGIN: 0px; BORDER-LEFT: #bbbbbb 1px groove; BORDER-BOTTOM: #bbbbbb 1px groove
+}
+.sc_chat_box {
+	HEIGHT: 140px
+}
+.sc_options_box {
+	HEIGHT: 35px
+}
+.sc_msg {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.sc_alt {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #dedede
+}
+.sc_Author {
+	FONT-WEIGHT: bold
+}
+.sc_chat_message {
+	MARGIN: 0px; WIDTH: 175px
+}
+.sc_chat_container INPUT {
+	BORDER-RIGHT: black 1px groove; BORDER-TOP: black 1px groove; FONT-SIZE: 10px; BORDER-LEFT: black 1px groove; BORDER-BOTTOM: black 1px groove; FONT-FAMILY: verdana
+}
+.sc_chat_send {
+	
+}

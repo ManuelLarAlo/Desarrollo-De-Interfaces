@@ -1,0 +1,4 @@
+
+Acceso a datos (Explicitando el código).
+
+1.- Insertar una fila en una tabla, comprobando previamente su existencia o no.

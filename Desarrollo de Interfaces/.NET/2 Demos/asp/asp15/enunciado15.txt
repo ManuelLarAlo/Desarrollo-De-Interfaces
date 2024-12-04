@@ -1,0 +1,6 @@
+
+Data Control. GridView.
+
+1.- Actualización de datos usando un GridView.
+2.- Validación de los datos a actualizar.
+3.- Cumplimiento de las reglas del negocio.

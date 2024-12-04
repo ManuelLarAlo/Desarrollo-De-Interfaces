@@ -1,0 +1,28 @@
+
+Estructura de un sitio Web ASP.NET
+
+Objetivos.
+
+1.- Creación de un sitio Web (VWD).
+2.- Organización y contenido de un sitio Web.
+3.- Contenido, utilidad y diferencias entre la carpetas App_Code y Bin.
+4.- uso de Ensamblados (.dll).
+5.- Carpeta App_Data.
+6.- Enlace manual de datos a controles.
+7.- Propiedad AutoPostBack.
+
+Notas.
+
+a.- Cree un sitio Web ASP.NET.
+b.- Añada al sitio, las carpetas ASP.NET: bin, App_Code. App_Data se añade al crear el sitio.
+c.- Situe el archivo de clase clasenif.cs en la carpeta App_Code.
+d.- A partir del archivo de clase consultas.cs cree la dll consultas.dll y sitúelo en la carpeta bin.
+e.- La página asp04.aspx contiene solo los controles necesarios para solicitar el nif de un cliente y en caso
+    de que sea correcto presentar sus pedidos en un dropdownlist.
+f.- El código asociado a esta página se encuentra en asp04.aspx.cs y la referencia se hace mediante la directiva @Page
+    (CodeFile e Inherits).
+g.- En asp04.aspx.cs, se comprueba la validez del nif llamando al método Okey() implementado en clasenif.cs y se
+    obtiene los pedidos llamando al método pedidosCliente() implementado en la clase consultas contenida en el 
+    ensamblado consultas.dll.
+h.- Para utilizar los tipos contenidos en consultas.dll, en la página asp04.aspx se ha hecho uso de 
+    la directiva @Assembly.   

@@ -1,0 +1,10 @@
+
+El archivo Global.asax.
+
+Objetivos.
+
+1.- Utilidad y ubicación del archivo golbal.asax.
+2.- Directivas de aplicación.
+2.- Eventos de aplicación.
+3.- Variables de estado y de aplicación.
+4.- El objeto Server.

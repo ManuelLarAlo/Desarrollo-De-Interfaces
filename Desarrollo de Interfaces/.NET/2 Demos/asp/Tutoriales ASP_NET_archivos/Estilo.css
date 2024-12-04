@@ -1,0 +1,108 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../../Images/fondo.gif); MARGIN: 0px; LINE-HEIGHT: 14px; FONT-FAMILY: Verdana,Arial,Tahoma,Helvetica, sans-serif; HEIGHT: 100%
+}
+HTML {
+	HEIGHT: 100%
+}
+TABLE.control {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-COLOR: #cddbe7; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE.seleccion {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.control {
+	BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: white
+}
+TD.controlInf {
+	BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-COLOR: white
+}
+TD.controlSubmenu {
+	FONT-WEIGHT: bold; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.controlSubmenu2 {
+	BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.controlNoElegido {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.controlElegido {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: #f0f0f0 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TABLE.master {
+	BACKGROUND-COLOR: white
+}
+TABLE.negro {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TD.cuerpo {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.cuerpoBlanco {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: white
+}
+TD.pie {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.pie2 {
+	BORDER-RIGHT: #cddbe7 1px solid; BORDER-TOP: #cddbe7 1px solid; BORDER-LEFT: #cddbe7 1px solid; BORDER-BOTTOM: #cddbe7 1px solid; BACKGROUND-COLOR: #efefef
+}
+TD.encabezado {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.paginador {
+	BORDER-RIGHT: #d7d7d7 1px solid; BORDER-TOP: #d7d7d7 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #d7d7d7 1px solid; COLOR: black; BORDER-BOTTOM: #d7d7d7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.menucentral {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: white 1px solid; COLOR: white; BORDER-BOTTOM: white 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.menucentral2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; COLOR: white; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #3db1e3
+}
+.separacion {
+	FONT-SIZE: 1px; WIDTH: 20%; HEIGHT: 15px
+}
+.separacion2 {
+	FONT-SIZE: 1px; FLOAT: none; WIDTH: 20%; HEIGHT: 5px
+}
+A {
+	COLOR: #307192; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.menu {
+	COLOR: #2c587e; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A.menu:hover {
+	TEXT-DECORATION: underline
+}
+A.limpio {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+A.limpio:hover {
+	BACKGROUND-COLOR: transparent
+}
+A.conFondo {
+	BACKGROUND-COLOR: #ffff66
+}
+TEXTAREA {
+	MARGIN: 2px
+}
+INPUT {
+	MARGIN: 2px
+}
+INPUT.btn {
+	BORDER-RIGHT: black 1px groove; BORDER-TOP: black 1px groove; FONT-SIZE: 11px; BORDER-LEFT: black 1px groove; COLOR: black; BORDER-BOTTOM: black 1px groove; FONT-FAMILY: verdana,tahoma,sans-serif
+}
+SELECT {
+	FONT-SIZE: 11px; MARGIN: 1px; FONT-FAMILY: verdana,tahoma,sans-serif
+}
+SELECT.little {
+	FONT-SIZE: 9px; MARGIN: 1px; FONT-FAMILY: tahoma,verdana,sans-serif
+}
+SPAN.aviso {
+	FONT-SIZE: smaller; BACKGROUND-COLOR: yellow
+}

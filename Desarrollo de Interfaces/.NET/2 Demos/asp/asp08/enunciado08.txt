@@ -1,0 +1,7 @@
+
+Programar controles. Código en el cliente.
+
+1.- Eventos de cliente en controles de servidor.
+2.- Asignación de código a eventos de cliente.
+3.- Asignación de código a eventos de cliente y de servidor en un mismo control.
+4.- Referencia a un control de servidor en código de cliente.

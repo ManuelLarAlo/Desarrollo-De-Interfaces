@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|d:\\nueva_carpeta\\desarrollo de interfaces\\c#\\windowsformsapp4\\windowsformsapp4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|solutionrelative:windowsformsapp4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|d:\\nueva_carpeta\\desarrollo de interfaces\\c#\\windowsformsapp4\\windowsformsapp4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|solutionrelative:windowsformsapp4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|d:\\nueva_carpeta\\desarrollo de interfaces\\c#\\windowsformsapp4\\windowsformsapp4\\gestiondataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{4D9C00D6-CB63-4300-8A02-3EA79D42815C}|WindowsFormsApp4\\WindowsFormsApp4.csproj|solutionrelative:windowsformsapp4\\gestiondataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp4\\Form1.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp4\\Form1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:57:46.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gestionDataSet.xsd",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\gestionDataSet.xsd",
+              "RelativeDocumentMoniker": "WindowsFormsApp4\\gestionDataSet.xsd",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\gestionDataSet.xsd*",
+              "RelativeToolTip": "WindowsFormsApp4\\gestionDataSet.xsd*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-12-03T07:55:47.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp4\\Form1.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\WindowsFormsApp4\\WindowsFormsApp4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp4\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:30:40.511Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

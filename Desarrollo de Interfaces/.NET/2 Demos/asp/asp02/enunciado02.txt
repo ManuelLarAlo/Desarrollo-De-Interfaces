@@ -1,0 +1,8 @@
+
+Código de servidor.
+
+Objetivos.
+
+1.- Estructura de la página según el modelo de código de un solo archivo.
+2.- Intrtoducción a los eventos del ciclo de vida de una página.
+3.- Sintaxis y uso de los controles aspx de servidor.

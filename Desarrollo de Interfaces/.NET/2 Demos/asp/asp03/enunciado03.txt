@@ -1,0 +1,9 @@
+
+Código de servidor.
+
+Objetivos.
+
+1.- Estructurar la página aspx de acuerdo al modelo de código subyacente u oculto.
+2.- Directiva @Page
+3.- Archivo de clases independientes.
+4.- Buenas prácticas.

@@ -1,0 +1,7 @@
+
+Gestión de Excepciones en una aplicación ASP.NET.
+
+1.- Evento Page_Error.
+2.- Control de errores en Global.asax.
+3.- El archivo Web.config (introducción).
+4.- Errores personalizados en Web.Config.

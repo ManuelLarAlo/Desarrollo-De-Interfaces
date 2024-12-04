@@ -1,0 +1,6 @@
+
+Programar Controles. Código en el servidor.
+
+1.- Crear un controlador para los eventos de página.
+2.- Enlazar eventos a métodos.
+3.- Determinar el control que causó el evento.

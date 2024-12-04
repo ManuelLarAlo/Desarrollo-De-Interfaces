@@ -1,0 +1,18 @@
+TD.noticiasEncabezado {
+	BORDER-RIGHT: #d7d7d7 1px solid; BORDER-TOP: #d7d7d7 1px solid; BORDER-LEFT: #d7d7d7 1px solid; BACKGROUND-COLOR: #cddbe7
+}
+TD.noticiasCuerpo {
+	BORDER-RIGHT: #d7d7d7 1px solid; BORDER-LEFT: #d7d7d7 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+TD.noticiasPie {
+	BORDER-RIGHT: #d7d7d7 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #d7d7d7 1px solid; BORDER-BOTTOM: #d7d7d7 1px solid; FONT-STYLE: italic; BACKGROUND-COLOR: #f0f0f0; TEXT-ALIGN: left
+}
+.noticiasSepara {
+	BORDER-TOP: #cccccc 0px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 5px
+}
+.noticiasInferior {
+	BORDER-RIGHT: #d7d7d7 1px solid; BORDER-TOP: #d7d7d7 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #d7d7d7 1px solid; COLOR: #487ba5; BORDER-BOTTOM: #d7d7d7 1px solid; FONT-FAMILY: helvetica,arial,sans-serif; BACKGROUND-COLOR: #f0f0f0
+}
+A.a_noticiasInferior {
+	COLOR: #487ba5
+}

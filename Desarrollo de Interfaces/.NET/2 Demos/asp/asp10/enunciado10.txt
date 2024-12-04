@@ -1,0 +1,4 @@
+
+Acceso a datos (Explicitando el código).
+
+1.- Similar al ejemplo asp09,pero completándolo con el uso de controles de validación.

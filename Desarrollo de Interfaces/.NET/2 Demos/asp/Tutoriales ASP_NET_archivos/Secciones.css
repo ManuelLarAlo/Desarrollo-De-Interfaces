@@ -1,0 +1,24 @@
+TD.Secciones_pie {
+	FONT-SIZE: smaller; COLOR: white; BACKGROUND-COLOR: black
+}
+A.Secciones_pie {
+	FONT-WEIGHT: bold; COLOR: white; TEXT-DECORATION: none
+}
+A.Secciones_pie:hover {
+	FONT-WEIGHT: bold; COLOR: #95cf72; TEXT-DECORATION: none
+}
+A.Secciones_insercion {
+	FONT-WEIGHT: bold; FONT-SIZE: larger; COLOR: black; BACKGROUND-COLOR: #ffb316; TEXT-DECORATION: underline overline
+}
+A.Secciones_insercion:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: larger; BACKGROUND-COLOR: #d7d7d7; TEXT-DECORATION: underline overline
+}
+A.Secciones_descargar {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #ffb316; TEXT-DECORATION: underline overline
+}
+A.Secciones_descargar:hover {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #d7d7d7; TEXT-DECORATION: underline overline
+}
+TD.Secciones_MiniMenu {
+	BACKGROUND-COLOR: #e9ebf5; TEXT-ALIGN: left
+}

@@ -1,0 +1,8 @@
+
+DataControl. 
+
+1.- GridView-DetailsView.
+2.- Gestión completa de un Maestro-Detalle.
+
+
+Este ejercicio se encuentra inacabado. Restan alguno aspectos por controlar.

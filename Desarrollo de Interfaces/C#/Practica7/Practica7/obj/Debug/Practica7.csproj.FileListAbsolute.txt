@@ -1,0 +1,11 @@
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\bin\Debug\practica.accdb
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\bin\Debug\Practica7.exe.config
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\bin\Debug\Practica7.exe
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\bin\Debug\Practica7.pdb
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.csproj.AssemblyReference.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.Form1.resources
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.Properties.Resources.resources
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.csproj.GenerateResource.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.csproj.CoreCompileInputs.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.exe
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7\Practica7\obj\Debug\Practica7.pdb

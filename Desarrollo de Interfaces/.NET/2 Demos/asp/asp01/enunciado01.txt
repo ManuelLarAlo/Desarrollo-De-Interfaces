@@ -1,0 +1,10 @@
+
+Llamada y paso de información entre una página HTML y una ASPX.
+
+Objetivos.-
+
+1.- El entorno IDE de Visual Web Developer.
+2.- Estructura de una página ASPX.
+3.- Sintaxis de una página ASPX.
+4.- Escritura de código en el cuerpo de la página.
+5.- Objetos intrínsecos.

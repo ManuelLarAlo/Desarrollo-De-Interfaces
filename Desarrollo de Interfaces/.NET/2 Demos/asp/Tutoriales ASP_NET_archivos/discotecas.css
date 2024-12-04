@@ -1,0 +1,12 @@
+TD.cuerpo_discotecas_Descripcion {
+	BACKGROUND-COLOR: #f0f0f0
+}
+TD.cuerpo_discotecas_Estadisticas {
+	BORDER-TOP: black 1px dotted; BACKGROUND-COLOR: #cddbe7
+}
+TABLE.discotecas {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.desfasada {
+	FONT-WEIGHT: bold; BACKGROUND: yellow
+}

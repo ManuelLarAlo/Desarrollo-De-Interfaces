@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0061)http://www.elguille.info/colabora/puntoNET/miliuco_adonet.htm -->
+<HTML><HEAD><TITLE>Colabora.NET: Iniciación a la programación en ADO .NET</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META http-equiv=Window-target content=_top>
+<META content="MSHTML 6.00.2900.3059" name=GENERATOR>
+<META content=Miliuco name=author>
+<META content=".NET; VB.NET; ADO .NET; SQL; bases de datos" name=keywords>
+<META 
+content="Iniciación a la programación en ADO .NET, uso de comandos SQL en una aplicación de consola de Visual Basic .NET" 
+name=description>
+<META content="ADO .NET" name=seccion></HEAD>
+<BODY vLink=#0000ff aLink=#ff0000 link=#0000ff bgColor=#ffffff 
+background="Colabora_NET Iniciación a la programación en ADO _NET_archivos/cuadriculaGris30.gif">
+<SCRIPT language=JavaScript>
+var gsPath = "../../"
+function IrADeLista(){
+    var s1 = gsBanner.D1.selectedIndex;
+    var s2 = gsBanner.D1.options[s1].value;
+    if( s2 != "Selecciona" )
+        window.location = gsPath + s2;
+}
+</SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Colabora_NET Iniciación a la programación en ADO _NET_archivos/elGuille.js"></SCRIPT>
+
+<P align=right><FONT face=Verdana><A 
+href="http://www.elguille.info/colabora/puntoNET/colaboraNET.htm"><IMG height=30 
+src="Colabora_NET Iniciación a la programación en ADO _NET_archivos/colabora_guillepuntonet.jpg" 
+width=500 align=baseline border=0></A></FONT></P>
+<TABLE id=tablePanorama style="BORDER-COLLAPSE: collapse" cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=left width="80%">
+      <P><FONT face=Verdana><STRONG><FONT size=7>Iniciación a la programación en 
+      ADO .NET</FONT><FONT size=5><BR></FONT><FONT size=4>Instrucciones SQL en 
+      una aplicación de consola.<BR>Conexión a una BD de Access, visualización y 
+      manipulación de datos.<BR>Objeto DataReader como lector de 
+      datos.</FONT></STRONG></FONT></P>
+      <P><FONT face=Verdana size=2><STRONG>Fecha: 14/Sep/2004 
+      (14/Septiembre/2004)<BR>Autor: </STRONG></FONT><STRONG><FONT face=Verdana 
+      size=2>Miliuco (Emilio Pérez Egido) - emi@miliuco.net - 
+      www.miliuco.net</FONT></STRONG></P></TD>
+    <TD vAlign=top align=middle width="20%"><IFRAME 
+      src="Colabora_NET Iniciación a la programación en ADO _NET_archivos/Panoramabox.htm" 
+      frameBorder=0 width=180 scrolling=no 
+height=240></IFRAME></TD></TR></TBODY></TABLE>
+<HR width="90%" color=#000080 noShade SIZE=3>
+
+<BLOCKQUOTE>
+  <P><B><FONT face=Verdana>INTRODUCCIÓN </FONT></B></P>
+  <P><FONT face=Verdana size=2>La programación en ADO .NET, la tecnología de 
+  .NET para el acceso a datos, ha despertado gran interés y muchas personas se 
+  están iniciando en ella. A pesar de tratarse de una tecnología que facilita 
+  enormemente la programación en relación con las bases de datos, hay algunas 
+  dificultades que pueden retrasar el aprendizaje del programador principiante, 
+  entre ellas, aprender el uso adecuado del lenguaje SQL para realizar las 
+  tareas deseadas en los datos dentro de la aplicación ASP .NET.<BR>Pensando en 
+  esos programadores que empiezan el estudio de ADO .NET, propongo este 
+  ejercicio, realizado en lenguaje Visual Basic .NET, basado en estas 
+  premisas:</FONT></P>
+  <P><B><FONT face=Verdana>FUNDAMENTOS DEL EJERCICIO</FONT></B></P>
+  <UL>
+    <LI><FONT face=Verdana size=2>se trata de una aplicación de <I>consola</I>, 
+    para ganar en rapidez de desarrollo y de ejecución y también para evitar las 
+    dificultades relacionadas con el manejo de los formularios Windows y con los 
+    controles específicos de que dispone ADO .NET. Se centra en los conceptos 
+    básicos de ADO .NET y SQL y, una vez aprendidos, no resultará difícil 
+    trasladarlos a una aplicación de interfaz gráfica.</FONT> 
+    <LI><FONT face=Verdana size=2>todas las operaciones realizadas sobre los 
+    datos se hacen mediante <I>instrucciones SQL</I>, tanto las que muestran los 
+    datos al usuario como las que los modifican.</FONT> 
+    <LI><FONT face=Verdana size=2>se ha elegido una base de datos de 
+    <I>Microsoft Access</I>, en lugar de <I>SQL Server</I>, como origen de los 
+    datos, por 3 motivos:<BR>
+    <UL>
+      <LI>Access es muy asequible por estar instalado en un porcentaje elevado 
+      de los ordenadores personales y su uso en ejercicios como el propuesto es 
+      más sencillo que el de SQL Server. 
+      <LI>es muy probable que la inmensa mayoría de los programadores noveles en 
+      ADO .NET sepan usar Access y, sin embargo, apenas hayan tenido contacto 
+      con SQL Server. 
+      <LI>Access no requiere tener un servidor de bases de datos en marcha en la 
+      máquina local, como sí es necesario en SQL Server. </LI></UL>Sin embargo, 
+    dada la importancia que, a nivel empresarial, tiene SQL Server, se 
+    proporciona el código de la aplicación para los 2 proveedores, uno para 
+    conectar con una base de datos de Access y otro para conectar con SQL Server 
+    en modo local.</FONT> 
+    <LI><FONT face=Verdana size=2>el código ha de estar <I>comentado</I> 
+    ampliamente para que sea fácilmente comprensible en su totalidad por el 
+    programador principiante.</FONT> 
+    <LI><FONT face=Verdana size=2>el programa va informando de las acciones al 
+    usuario, al que se requiere la pulsación de la tecla INTRO para continuar; 
+    se busca ante todo que la aplicación sea demostrativa.</FONT> 
+    <LI><FONT face=Verdana size=2>manejo de excepciones para que el usuario 
+    siempre reciba información útil en caso de error (no poder acceder a la base 
+    de datos, borrar una tabla que no existe, crear una tabla que ya existe, 
+    etc...).</FONT> 
+    <LI><FONT face=Verdana size=2>se puede utilizar Visual Studio 2003 para su 
+    desarrollo pero no es imprescindible aunque sí muy cómodo, en realidad basta 
+    con tener estos 2 elementos en nuestro sistema: 
+    <UL>
+      <LI>un editor de texto para escribir los archivos con el código <I>Visual 
+      Basic .NET</I> (por ej: EditPlus, ver <B><A 
+      href="http://www.elguille.info/colabora/puntoNET/miliuco_compilarvb.htm" 
+      target=_blank>aquí</A></B>). 
+      <LI>SDK (<I>Kit de Desarrollo de Software</I>) de .NET Framework: está 
+      disponible para Windows NT con SP6a, Windows 2000, Windows XP y Windows 
+      .NET 2003. La instalación de Visual Studio .NET conlleva automáticamente 
+      la del SDK de .NET Framework. </LI></UL></LI></UL>
+  <P><FONT face=Verdana size=2>Los pasos para desarrollar el ejercicio 
+  son:</FONT></P></FONT><FONT face=Verdana>
+  <P><B>DESARROLLO DEL EJERCICIO</B></P></FONT><FONT face=Verdana size=2>
+  <UL>
+    <LI>Antes de ejecutarlo por primera vez, hay que crear una nueva base de 
+    datos de Microsoft Access, llamada <I>pruebasDB.mdb</I>, que contenga 3 
+    tablas:<BR><BR>- <I>Prueba1</I>: es la tabla que es modificada desde el 
+    programa.<BR>- <I>Prueba2</I>: contiene unos registros que el programa copia 
+    a la tabla Prueba1.<BR>- <I>Prueba3</I>: es la tabla de reserva con todos 
+    los registros originales para evitar tener que volver a 
+    escribirlos.<BR><BR>Las 3 tablas han de tener la misma estructura:<BR><BR>- 
+    <I>Nombre</I>: campo de texto, max. 40 caracteres.<BR>- <I>Teléfono</I>: 
+    campo de texto, max. 9 caracteres.<BR><BR>Un tercer campo <I>Id</I>, de tipo 
+    autonumérico, será creado mediante una sentencia SQL desde la aplicación ADO 
+    .NET.<BR>La tabla <I>Prueba1</I> puede estar vacía, pero la tabla 
+    <I>Prueba2</I> ha de tener registros. La base de datos <I>pruebasDB.mdb</I> 
+    ha de estar situada en la carpeta <I>\bin</I> del proyecto (ahí es donde la 
+    buscará la aplicación por defecto).<BR>Para mayor comodidad, se puede 
+    descargar la base de datos de Microsoft Access, ya creada con esa 
+    estructura, desde <B><A 
+    href="http://downloads.elguille.info/BajarZip.aspx?seccion=/colabora/&amp;zip=miliuco_adonet_pruebasDB_access.zip" 
+    target=_blank>aquí</A></B> (o también para SQL Server <B><A 
+    href="http://downloads.elguille.info/BajarZip.aspx?seccion=/colabora/&amp;zip=miliuco_adonet_pruebasDB_sql.zip" 
+    target=_blank>aquí</A></B>). <BR>&nbsp; 
+    <LI>Es necesario importar los espacios de nombres <I>System</I>, 
+    <I>System.Data</I> y <I>System.Data.OleDb</I> pues en ellos están las clases 
+    requeridas para este tipo de conexiones:<PRE><FONT face="Courier New" size=2><FONT color=#0000ff>Imports</FONT> System
+<FONT color=#0000ff>Imports</FONT> System.Data
+<FONT color=#0000ff>Imports</FONT> System.Data.OleDb</FONT></PRE>
+    <LI>Se utilizan 3 objetos del espacio de nombres 
+    <I>System.Data.OleDb</I>:<BR>&nbsp;
+    <UL>
+      <LI><I>OleDbConection</I> (para conectar con la base de datos) 
+      <LI><I>OleDbCommand</I> (comando para realizar las acciones sobre los 
+      datos) 
+      <LI><I>OleDbDataReader</I> (lector de los datos, de sólo lectura, que 
+      solamente puede leer hacia adelante pero es rápido y sencillo de usar). 
+      Las clases en .NET pueden ser, entre otros tipos, abstractas ("abstract") 
+      o selladas ("sealed", precintadas):<BR>- una clase abstracta requiere 
+      necesariamente una clase derivada para proporcionar una 
+      implementación.<BR>- una clase sellada no admite una clase 
+      derivada.<BR><I>OledbDataReader</I> es una clase <I>precintada o 
+      sellada</I> -"<I>sealed</I>"-, no se puede heredar de ella: </LI></UL><PRE><FONT face="Courier New" size=2><FONT color=#0000ff>Private</FONT> con <FONT color=#0000ff>As</FONT> OleDbConnection = <FONT color=#0000ff>New</FONT> OleDbConnection
+<FONT color=#0000ff>Private</FONT> com <FONT color=#0000ff>As</FONT> OleDbCommand = <FONT color=#0000ff>New</FONT> OleDbCommand
+<FONT color=#0000ff>Private</FONT> col <FONT color=#0000ff>As</FONT> OleDbDataReader
+<FONT color=#008000>' OleDbDataReader no se construye con New, a diferencia de OleDbConnection  y OleDbCommand</FONT></FONT></PRE>
+    <LI>Se usa una cadena de conexión muy sencilla, típica del acceso a bases de 
+    datos de Access:<BR><PRE><FONT face="Courier New" size=2>con.ConnectionString = <FONT color=#ff00cc>"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=pruebasDB.mdb;"</FONT>
+con.Open()</FONT></PRE>
+    <LI>El objeto <I>OleDbCommand</I> se asigna a la conexión creada con la 
+    instrucción <FONT face="Courier New" size=2>com.Connection = con. 
+    </FONT><FONT face=Verdana size=2>Los objetos de comando tienen distintos 
+    métodos de ejecución:<BR><BR>
+    <UL>
+      <LI>para visualizar los datos se emplea el método <I>ExecuteReader</I>() 
+      que ejecuta una sentencia SQL y devuelve un objeto <I>OleDbDataReader</I> 
+      con los datos; se captura su valor de retorno.<BR>
+      <LI>para modificar los datos se emplea el método <I>ExecuteNonQuery</I>() 
+      que ejecuta una sentencia SQL que no devuelve datos (<I>DELETE</I>, 
+      <I>UPDATE</I>, <I>INSERT</I>...); no se captura su valor de retorno.<BR>
+      <LI>para devolver un valor único (ej: una única columna o un resultado 
+      como una suma, un valor máximo, etc.) después de ejecutar una sentencia 
+      <I>SELECT</I> se emplea el método 
+      <I>ExecuteScalar</I>().<BR>&nbsp;</FONT></LI></UL>
+    <LI>Al comenzar el ejercicio se borra la tabla <I>Prueba</I> para que no 
+    haya error al crearla:<BR><PRE><FONT face="Courier New" size=2>com.CommandText = <FONT color=#ff00cc>"DROP TABLE Prueba;"</FONT>
+com.ExecuteNonQuery()</FONT></PRE>
+    <LI>Se crea la tabla <I>Prueba1</I> con 3 campos (<I>Id</I>, <I>Nombre</I>, 
+    <I>Teléfono</I>). El campo <I>Id</I> se declara como:<BR>- Tipo: entero 
+    (<I>INTEGER</I>).<BR>- <I>IDENTITY</I>: la propia base de datos va asignando 
+    valores incrementalmente por lo que no se declara explícitamente en los 
+    comandos SQL. Es equivalente al campo Autonumérico de Microsoft Access.<BR>- 
+    <I>PRIMARY KEY</I>: es la clave primaria de la tabla. <PRE><FONT face="Courier New" size=2>com.CommandText = <FONT color=#ff00cc>"CREATE TABLE Prueba1 "</FONT> &amp; _
+<FONT color=#ff00cc>"(Id INTEGER IDENTITY PRIMARY KEY, Nombre VARCHAR(40), Teléfono CHAR(9));"</FONT>
+com.ExecuteNonQuery()</FONT></PRE>
+    <LI>Se insertan registros nuevos mediante sucesivas sentencias SQL de 
+    inserción (se proporcionan valores para los campos <I>Nombre</I> y 
+    <I>Teléfono</I> pero no para el campo <I>Id</I>, que es creado 
+    automáticamente por la base de datos):<BR><PRE><FONT face="Courier New" size=2>com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 (Nombre, Teléfono) VALUES ('Fifth Third BanCorp', '920126032');"</FONT>
+com.ExecuteNonQuery()
+com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 (Nombre, Teléfono) VALUES ('Ohio Casualty Corp.', '900125458');"</FONT>
+com.ExecuteNonQuery()
+com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 (Nombre, Teléfono) VALUES ('Paine Webber Group Inc.', '999521477');"</FONT>
+com.ExecuteNonQuery()
+ <FONT color=#008000>' siguen comandos...</FONT></FONT></PRE>
+    <LI>Se ejecutan varios comandos SQL (de selección, de eliminación, de 
+    inserción...) y se van mostrando los datos con las modificaciones efectuadas 
+    por las sentencias SQL. Por ejemplo, para mostrar los datos en pantalla sin 
+    ordenar (es decir, siguiendo el orden interno de la base de datos que es el 
+    de la adición de los registros)<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Seleccionar todos los registros de la tabla</FONT>
+ com.CommandText = <FONT color=#ff00cc>"SELECT * FROM Prueba1"
+</FONT>com.ExecuteNonQuery()</FONT></PRE>Para mostrar los datos ordenados 
+    por el campo <I>Nombre</I>:<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Seleccionar todos los registros de la tabla ordenados por Nombre</FONT>
+com.CommandText = <FONT color=#ff00cc>"SELECT * FROM Prueba1 ORDER BY Nombre"
+</FONT>com.ExecuteNonQuery()</FONT></PRE>Para borrar un registro con el 
+    <I>Nombre</I> especificado:<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Borrar un registro, el que tiene por nombre Eastman Kodak Co.</FONT>
+com.CommandText = <FONT color=#ff00cc>"DELETE FROM Prueba1 WHERE Nombre='Eastman Kodak Co.';"
+</FONT>com.ExecuteNonQuery()</FONT></PRE>Para borrar un registro con el 
+    <I>ID</I> especificado:<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Borrar un registro, el que tiene Id=6</FONT>
+com.CommandText = <FONT color=#ff00cc>"DELETE FROM Prueba1 WHERE Id=6;"
+</FONT>com.ExecuteNonQuery()</FONT></PRE>Para insertar nuevos registros (sin 
+    proporcionar valor para el campo <I>Id</I>): <PRE><FONT face="Courier New" size=2><FONT color=#008000>' Comando de inserción (inserta registros nuevos en la tabla)</FONT>
+com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 (Nombre, Teléfono) VALUES ('Parker Hannifin Corp.', '923652547');"</FONT>
+com.ExecuteNonQuery()</FONT></PRE>Para insertar un registro nuevo 
+    solicitando <I>Nombre</I> y <I>Teléfono</I> al usuario mediante el método 
+    <I>Console.ReadLine()</I>, que lee la siguiente línea de caracteres de la 
+    secuencia de entrada (la pantalla en este caso), es decir, lee la cadena que 
+    teclea el usuario:<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Variable para contener lo que teclea el usuario</FONT>
+<FONT color=#0000ff>Dim</FONT> n1 <FONT color=#0000ff>As</FONT> <FONT color=#0000ff>String</FONT>
+Console.WriteLine(<FONT color=#ff00cc>"--- Escribe un nombre y pulsa INTRO"</FONT>)
+n1 = Console.ReadLine()
+<FONT color=#008000>' Restricción sencilla para evitar que el nombre introducido supere</FONT>
+<FONT color=#008000>' los 40 caracteres de tamaño máximo del campo correspondiente de la tabla</FONT>
+<FONT color=#0000ff>While</FONT> n1.Length &gt; 40
+    Console.WriteLine(<FONT color=#ff00cc>"ERROR: El nombre no puede tener más de 40 caracteres."</FONT>)
+<FONT color=#0000ff size=2>End While</FONT>
+<FONT size=2>com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 (Nombre) VALUES ('"</FONT> &amp; n1 &amp; <FONT color=#ff00cc>"');"</FONT>
+com.ExecuteNonQuery()</FONT></FONT></PRE>Para insertar nuevos registros pero 
+    copiándolos desde otra tabla existente llamada <I>Prueba2</I> (ambas tablas, 
+    origen y destino de la copia, han de tener idéntica estructura):<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Comando de inserción (inserta 16 registros nuevos en la tabla copiándolos desde la tabla Prueba2)</FONT>
+com.CommandText = <FONT color=#ff00cc>"INSERT INTO Prueba1 SELECT Nombre, Teléfono FROM Prueba2;"</FONT>
+com.ExecuteNonQuery()</FONT></PRE>
+    <LI>Mostrar en pantalla, tras cada operación que modifique los datos, los 
+    nombres de columna y las filas con los registros:<BR><BR>
+    <UL>
+      <LI>Los nombres de columna se pueden obtener mediante el método 
+      <I>GetName()</I> del <I>DataReader</I>, que devuelve el nombre de la 
+      columna con el índice pasado como parámetro:<BR><PRE><FONT face="Courier New" size=2><FONT color=#008000>' Mostrar los nombres de las columnas de la tabla</FONT>
+Console.Write(col.GetName(0).ToUpper() &amp; Space(4) &amp; _
+    col.GetName(1).ToUpper() &amp; Space(34) &amp; _
+    col.GetName(2).ToUpper())
+<FONT color=#008000>' </FONT>
+<FONT color=#008000>' Otra manera de mostrar los nombres de las columnas de la tabla:</FONT>
+<FONT color=#008000>' el DataReader tiene una propiedad FieldCount que devuelve el nº</FONT>
+<FONT color=#008000>' de campos o columnas de la tabla.</FONT>
+<FONT color=#008000>'For i = 0 To (col.FieldCount - 1)</FONT>
+    <FONT color=#008000>'Console.Write(col.GetName(i).ToUpper() &amp; Space((i + 2) * 7.7))</FONT>
+<FONT color=#008000>'Next</FONT></FONT></PRE>
+      <LI>El objeto de comando tiene un método <I>ExecuteReader()</I> que 
+      devuelve un <I>DataReader</I>, como ya se ha comentado. Algunas 
+      características importantes del <I>DataReader</I> son:<BR>
+      <UL>
+        <LI>no puede trabajar en modo desconectado 
+        <LI>es un objeto de sólo lectura 
+        <LI>su finalidad es la de acceder lo más rápido posible a los datos 
+        <LI>sólo permite movimiento hacia adelante a través de los registros 
+        <LI>se usan bucles para recorrer el DataReader hasta el final 
+      </LI></UL><BR>Así, para recorrer el <I>DataReader</I> hacia adelante e ir 
+      mostrando los datos (<I>col</I> es el <I>DataReader</I>): <PRE><FONT face="Courier New" size=2>col = com.ExecuteReader()
+<FONT color=#008000>' recorrer el DataReader hacia adelante</FONT>
+<FONT color=#0000ff>While</FONT> (col.Read)
+                <FONT color=#008000>' Se muestran 3 formas de obtener datos de un OleDbDataReader:</FONT>
+                <FONT color=#008000>' - recuperación por índice, devuelve datos de la columna</FONT>
+                <FONT color=#008000>' con el índice declarado (variables ide y nom), se usan</FONT>
+                <FONT color=#008000>' 2 propiedades diferentes: Item(i) y GetValue(i)</FONT>
+                <FONT color=#008000>' - recuperación por nombre, devuelve datos de la columna</FONT>
+                <FONT color=#008000>' con el nombre declarado (variable tel)</FONT>
+                ide = <FONT color=#0000ff>CInt</FONT>(col.Item(0))
+                nom = <FONT color=#0000ff>CStr</FONT>(col.GetValue(1))
+                tel = <FONT color=#0000ff>CStr</FONT>(col(<FONT color=#ff00cc>"Teléfono"</FONT>))
+                <FONT color=#008000>' Mostrar los datos en pantalla</FONT>
+                Console.WriteLine(ide.ToString &amp; <FONT color=#ff00cc>" / "</FONT> &amp; nom &amp; <FONT color=#ff00cc>" / "</FONT> &amp; tel)
+<FONT color=#0000ff>End</FONT> <FONT color=#0000ff>While</FONT>
+<FONT color=#008000>' </FONT>
+<FONT color=#008000>' Otra manera de mostrar los datos en pantalla</FONT>
+ <FONT color=#008000>'While (col.Read)</FONT>
+            <FONT color=#008000>'    Console.Write(col(0).ToString() &amp; " / ")</FONT>
+            <FONT color=#008000>'    Console.Write(col(1).ToString() &amp; " / ")</FONT>
+            <FONT color=#008000>'    Console.WriteLine(col(2).ToString())</FONT>
+<FONT color=#008000>'End While</FONT>
+<FONT color=#008000>' el DataReader debe ser cerrado explícitamente al terminar de leer</FONT>
+col.Close()</FONT></PRE></LI></UL>
+    <LI>Se cierra explícitamente la conexión <I>OleDb</I> (si no se hace así, la 
+    información de bloqueo de registros de la base de datos de Access permanece 
+    en forma de archivo con extensión *.ldb junto al archivo 
+    <I>pruebasDB.mdb</I> y puede provocar errores en accesos futuros a la base 
+    de datos): <PRE><FONT face="Courier New" size=2><FONT color=#008000>' Cerrar la conexión y los objetos de comando</FONT>
+com.Dispose()
+con.Close()
+Console.WriteLine(<FONT color=#ff00cc>"Conexión OLEDB cerrada."</FONT>)</FONT><BR></PRE>
+    <LI>La aplicación se ha desarrollado en 2 módulos:<BR><BR>
+    <UL>
+      <LI><I>Mod_sql.vb</I>: contiene solamente al método principal 
+      <I>Main()</I> de entrada al programa, el método Main() llama a otro método 
+      <FONT face="Courier New">Call manejoSQL()</FONT> más complejo que es 
+      desarrollado en el otro módulo, el método <I>manejoSQL()</I> es el que 
+      realiza el grueso del trabajo.<BR><BR>
+      <LI><I>Mod_sql2.vb</I>: contiene 2 métodos, <I>manejoSQL()</I> que conecta 
+      con la base de datos y realiza las operaciones con los comandos SQL, y 
+      <I>mostrarDatos()</I> que muestra los resultados por 
+    pantalla.</LI></UL><BR>Para comprender cómo interactúan ambos módulos entre 
+    sí, es conveniente recordar qué son los espacios de nombres 
+    (<I>NAMESPACE</I>): es la manera que tiene .NET de organizar componentes 
+    cuyo código ha de ser compartido. Las clases que forman parte de .NET se 
+    agrupan, para mejor funcionalidad, en unidades de orden superior 
+    (<I>Espacios de nombres - Namespaces</I>). Declarando un mismo 
+    <I>Namespace</I> para ambos módulos de esta aplicación, es posible compartir 
+    objetos entre ellos.<BR><BR>El proceso de mostrar los datos en forma de 
+    columnas y filas formateadas se ha encapsulado en el procedimiento llamado 
+    <I>mostrarDatos()</I> para que el código sea más legible, ya que ese 
+    procedimiento es llamado en varias ocasiones a lo largo de la aplicación y, 
+    de esta manera, se acorta mucho el código y es más fácil de leer. 
+  </LI></UL></FONT></BLOCKQUOTE>
+<HR width="90%" color=#000080 noShade SIZE=3>
+
+<P align=center><FONT face=Verdana size=2><A 
+href="http://www.elguille.info/default.aspx"><IMG height=50 alt="ir al índice" 
+src="Colabora_NET Iniciación a la programación en ADO _NET_archivos/el_guille.jpg" 
+width=200 border=0></A></FONT></P><FONT face=Verdana size=2><B><A 
+href="http://www.elguille.info/colabora/puntoNET/miliuco_adonet_access.htm" 
+target=_blank>Código de la aplicación para BD de Microsoft Access</A> 
+</B><BR><BR><B><A 
+href="http://www.elguille.info/colabora/puntoNET/miliuco_adonet_sql.htm" 
+target=_blank>Código de la aplicación para BD de SQL Server</A> 
+</B><BR><BR><B><A 
+href="http://downloads.elguille.info/BajarZip.aspx?seccion=/colabora/&amp;zip=miliuco_adonet_vs2003.zip" 
+target=_blank>Aplicación completa en una solución de Visual Studio 2003</A> 
+</B>(tamaño: 65 KB) 
+<P>&nbsp;</P></FONT></BODY></HTML>

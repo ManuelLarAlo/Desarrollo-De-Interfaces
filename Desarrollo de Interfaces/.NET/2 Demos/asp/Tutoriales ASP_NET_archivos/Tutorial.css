@@ -1,0 +1,27 @@
+.tutorialIzq {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 300px; PADDING-TOP: 0px; HEIGHT: 100%
+}
+.indice {
+	OVERFLOW: auto; WIDTH: 298px; HEIGHT: 100%
+}
+.tutorialIzq .informacion {
+	BORDER-RIGHT: #d7d7d7 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 3px; BORDER-LEFT: #d7d7d7 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d7d7d7 1px solid; BACKGROUND-COLOR: #f0f0f0; TEXT-ALIGN: center
+}
+.tutorialIzq .informacion .titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+TD.tutorialIzq {
+	BORDER-RIGHT: #d7d7d7 4px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+A.indice {
+	COLOR: black; TEXT-DECORATION: none
+}
+DIV.tituloMenuIzq {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.capitulo {
+	PADDING-LEFT: 5px; FONT-SIZE: 13px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 15px; MARGIN-LEFT: 5px; OVERFLOW: auto; LINE-HEIGHT: 20px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif
+}
+.Publi {
+	PADDING-LEFT: 50px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 50px; WIDTH: 100%; PADDING-TOP: 55px
+}
