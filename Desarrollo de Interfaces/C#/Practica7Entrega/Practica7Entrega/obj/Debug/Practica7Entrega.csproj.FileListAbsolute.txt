@@ -1,0 +1,12 @@
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\bin\Debug\Practica7Entrega.exe.config
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\bin\Debug\Practica7Entrega.exe
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\bin\Debug\Practica7Entrega.pdb
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.csproj.AssemblyReference.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.Form1.resources
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.Properties.Resources.resources
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.csproj.GenerateResource.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.csproj.CoreCompileInputs.cache
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.exe
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.pdb
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\bin\Debug\practica.accdb
+D:\Nueva_carpeta\Desarrollo de Interfaces\C#\Practica7Entrega\Practica7Entrega\obj\Debug\Practica7Entrega.Form2.resources

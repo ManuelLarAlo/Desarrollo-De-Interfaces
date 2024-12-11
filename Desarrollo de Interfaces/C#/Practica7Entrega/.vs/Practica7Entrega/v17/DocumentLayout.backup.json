@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|d:\\nueva_carpeta\\desarrollo de interfaces\\c#\\practica7entrega\\practica7entrega\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|solutionrelative:practica7entrega\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\practica7entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|solutionrelative:practica7entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\practica7entrega\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|solutionrelative:practica7entrega\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\practica7entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{893C666B-1E01-4A1E-AD96-14A2657406AE}|Practica7Entrega\\Practica7Entrega.csproj|solutionrelative:practica7entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form2.cs",
+              "RelativeDocumentMoniker": "Practica7Entrega\\Form2.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form2.cs",
+              "RelativeToolTip": "Practica7Entrega\\Form2.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:15:11.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form2.cs",
+              "RelativeDocumentMoniker": "Practica7Entrega\\Form2.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica7Entrega\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:12:20.659Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica7Entrega\\Form1.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form1.cs",
+              "RelativeToolTip": "Practica7Entrega\\Form1.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwvzQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:05:56.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica7Entrega\\Form1.cs",
+              "ToolTip": "D:\\Nueva_carpeta\\Desarrollo de Interfaces\\C#\\Practica7Entrega\\Practica7Entrega\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica7Entrega\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:03:29.412Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
